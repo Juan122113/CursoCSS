@@ -1,0 +1,55 @@
+/* Selector universal */
+
+*{
+    background-color: teal;
+    text-decoration: underline;
+}
+
+/* Selector de tipo */
+body{
+    background-color: white;
+    font-family: 'Arial';
+}
+h1{
+    color: blue;
+    font-size: 40px;
+}
+
+li{
+    color: slateblue;
+    font-size: 20px;
+}
+
+/* Selector de clase */
+
+.películas{
+    color: crimson;
+}
+
+.series{
+    font-size: 60px;
+}
+
+.favoritas{
+    font-weight: bold;
+    color: rebeccapurple;
+    font-size: 25px;
+}
+
+.espaciado{
+    letter-spacing: 10px;
+}
+
+/* Selector de ID */
+
+#spidermanNoWayHome{
+    font-size: 25px;
+    color: tomato;
+    text-decoration: underline;
+}
+
+#temporada3{
+    color: seagreen;
+    font-size: 14px;
+}
+

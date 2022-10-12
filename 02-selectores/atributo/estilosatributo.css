@@ -1,0 +1,25 @@
+[class]{
+    background-color: yellow;
+}
+
+[type]{
+    background-color: red;
+}
+
+[value]{
+    display: block;
+    width: 90%;
+    margin-top: 20px;
+}
+
+[type="text"]{
+    background-color: yellow;
+}
+
+[value~="cursocss.com"]{
+    background-color: aqua;
+}
+
+[value^="Aquí"]{
+    background-color: aquamarine;
+}
