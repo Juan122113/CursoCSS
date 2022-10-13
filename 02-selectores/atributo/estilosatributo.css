@@ -23,3 +23,11 @@
 [value^="Aquí"]{
     background-color: aquamarine;
 }
+
+[value$="cursocss.com"]{
+    background-color: blueviolet;
+}
+
+[value*="cursocss.com"]{
+    background-color: pink;
+}
