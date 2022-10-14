@@ -22,6 +22,10 @@ body{
     color: steelblue;
 }
 
+.title{
+    border: inherit;
+}
+
 input{
     font-size: 25px;
 }
