@@ -1,9 +1,9 @@
 [class]{
-    background-color: yellow;
+    background-color: green;
 }
 
 [type]{
-    background-color: red;
+    text-decoration: underline;
 }
 
 [value]{
@@ -21,7 +21,7 @@
 }
 
 [value^="Aquí"]{
-    background-color: aquamarine;
+    background-color: skyblue;
 }
 
 [value$="cursocss.com"]{
