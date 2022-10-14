@@ -1,9 +1,29 @@
+#title{
+    color: purple;
+    font-family: verdana;
+}
+
+
 .title{
     color: royalblue;
     font-family: Arial;
 }
 
-h1{
-    color: crimson;
+h1.title{
+    color: crimson !important;
     font-family: cursive;
+    background-color: black;
 }
+/* 1+10 = 11 */
+
+body{
+    border: 3px solid orange;
+    font-family: arial;
+    color: steelblue;
+}
+
+input{
+    font-size: 25px;
+}
+
+
