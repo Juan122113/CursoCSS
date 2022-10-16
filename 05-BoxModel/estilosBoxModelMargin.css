@@ -1,0 +1,79 @@
+body{
+    font-family: Georgia;
+}
+
+
+/* Capa de contenido */
+
+.card{
+    background-color: royalblue;
+    color: white;
+    width: auto;
+    display: inline-block;
+    /*max-width: 300px;
+    min-width: 200px;
+    max-height: 500px;
+    min-height: 300px;*/
+    width: 300px;
+    /*padding: 50px;*/
+
+    /* arriba, derecha, abajo, izquierda*/
+
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;*/
+
+    /*padding: 20px 40px 60px 80px;*/
+
+    /*padding: 20px 40px 60px;*/
+
+    padding: 20px 40px;
+
+    /*border: 3px solid black;*/
+
+    /* border-style: solid;
+    border-color: purple; */
+
+    /*border-top-width:20px;
+    border-right-width: 30px;
+    border-bottom-width: 50px;
+    border-left-width: 70px;*/
+
+    /* border-width: 20px 30px 50px 70px; */
+
+    
+
+    /* border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: double;
+    border-left-style: solid; */
+
+    /* border-style: dotted dashed double solid; */
+    /* border-style: dotted dashed solid; */
+    /* border-style: dotted solid; */
+    /* border-style: dotted; */
+
+    /* border-color: crimson; */
+    /* border-top-color: crimson;
+    border-right-color: black;
+    border-bottom-color: yellow;
+    border-left-color: purple; */
+
+    /* border-color: crimson black yellow purple; */
+
+    border: crimson dashed 20px;
+    /* border-top: crimson dashed 20px;
+    border-right: crimson dashed 20px;
+    border-bottom: crimson dashed 20px;
+    border-left: crimson dashed 20px; */
+
+}
+
+.card--one{
+    margin: 50px 30px 70px 10px;
+    /* margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-left: 10px; */
+}

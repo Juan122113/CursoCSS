@@ -1,0 +1,32 @@
+body{
+    font-family: Georgia;
+}
+
+
+/* Capa de contenido */
+
+.card{
+    background-color: royalblue;
+    color: white;
+    width: auto;
+    display: inline-block;
+    /*max-width: 300px;
+    min-width: 200px;
+    max-height: 500px;
+    min-height: 300px;*/
+    width: 300px;
+    /*padding: 50px;*/
+
+    /* arriba, derecha, abajo, izquierda*/
+
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;*/
+
+    /*padding: 20px 40px 60px 80px;*/
+
+    /*padding: 20px 40px 60px;*/
+
+    padding: 20px 40px;
+}
