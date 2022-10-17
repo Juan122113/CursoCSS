@@ -14,7 +14,7 @@ body{
     min-width: 200px;
     max-height: 500px;
     min-height: 300px;*/
-    width: 300px;
+    /* width: 300px; */
     /*padding: 50px;*/
 
     /* arriba, derecha, abajo, izquierda*/
@@ -68,6 +68,11 @@ body{
     border-bottom: crimson dashed 20px;
     border-left: crimson dashed 20px; */
 
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid chocolate;
+
 }
 
 .card--one{
@@ -77,3 +82,19 @@ body{
     margin-bottom: 70px;
     margin-left: 10px; */
 }
+
+/* .main{
+    background-color: steelblue;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.main__title{
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: slateblue;
+    color: white;
+    margin-top: 50px;
+} */
