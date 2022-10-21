@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    margin: 50px;
+
+    border-radius: 100px;
+}
