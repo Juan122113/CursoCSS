@@ -9,9 +9,22 @@ body{
 
 .img{
     width: 250px;
-    height: 350px;
+    height: 250px;
     object-fit: cover;
     margin: 50px;
+    color: coral;
 
-    border-radius: 100px;
+    /* border-radius: 100px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 30px; */
+
+    /* border-radius: 10px 60px 110px 30px; */
+
+    border-radius: 50%;
+
+    /* box-shadow: offset-x offset-y blur spread color; */
+
+    box-shadow: 100px -100px 20px 0 hsla(236, 37%, 59%, 0.397), 100px 200px 0 -100px orange, 200px 100px 0 -70px;
 }
