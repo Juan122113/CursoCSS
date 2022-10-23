@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.container{
+    margin: 50px auto;
+    background-color: royalblue;
+    /* padding: 70px; */
+    width: 90%;
+    height: 500px;
+    /* background-image: url(img/spiderman.png); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.718), rgba(0, 0, 255, 0.7)), url(imagen.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    color: #fff;
+
+    /* text-align: center;
+    padding: 200px; */
+}
