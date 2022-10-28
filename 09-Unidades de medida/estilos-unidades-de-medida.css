@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.container{
+    padding: 40px;
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-color: yellow; */
+    width: 300px;
+}
+
+.container-child{
+    width: 50%;
+    background-color: yellow;
+}
+
+
+.title{
+    /* font-size: 3rem; */
+    font-size: 3em;
+
+    width: 5em;
+}
