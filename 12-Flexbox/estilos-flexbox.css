@@ -16,9 +16,11 @@ body{
     display: flex;
     /* flex-direction: column-reverse; */
     /*row | row-reverse | column | column-reverse*/
-    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
 
     justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-evenly;
 }
 
 .element{
@@ -29,10 +31,15 @@ body{
     background-color: salmon;
     width: 100px;
     height: 100px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+    /* flex-basis: 150px; */
 }
 
 .element1{
     background-color: crimson;
+    /* order: 1; */
+    /* align-self: stretch; */
 }
 
 .element2{
@@ -41,5 +48,6 @@ body{
 
 .element3{
     background-color: steelblue;
+    
 
 }
