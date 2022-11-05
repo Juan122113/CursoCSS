@@ -264,6 +264,15 @@ content: "example@huddle.com";
     display: block;
 }
 
+.footer__attribution{
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer__attribution--link{
+    color: rgb(176, 214, 250);
+}
+
 
 @media (min-width: 768px){
     .hero{

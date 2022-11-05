@@ -1,0 +1,35 @@
+:root{
+    --color-gradiente: linear-gradient(steelblue, hotpink);
+    --bordes: 1px solid #000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.title{
+    border: var(--bordes);
+    color: royalblue;
+}
+
+.paragraph{
+    border: var(--bordes);
+    color: royalblue;
+}
+
+.cta{
+    background-color: royalblue;
+    background-image: var(--color-gradiente);
+    display: block;
+    padding: 20px 0;
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
