@@ -58,10 +58,15 @@ body{
 .main__controls{
     grid-area: main;
     align-self: end;
+    justify-self: end;
     background-color: var(--Black);
     width: 100px;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.main__control{
+    height: 40%;
 }
