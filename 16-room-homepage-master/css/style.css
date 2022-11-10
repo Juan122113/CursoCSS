@@ -1,0 +1,67 @@
+:root{
+    --Dark-Gray: hsl(0, 0%, 63%);
+    --Black: hsl(0, 0%, 0%);
+    --White: hsl(0, 0%, 100%);
+    --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+    display: grid;
+    max-width: 1400px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    "main"
+    "cta"
+    "image1"
+    "about"
+    "image2";
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.main__hero{
+    grid-area: main;
+    background-image: url(../images/desktop-image-hero-1.jpg);
+    min-height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__nav{
+    display: flex;
+}
+
+.main__links{
+    display: none;
+}
+
+.main__logo{
+    margin: 0 auto;
+}
+
+.main__controls{
+    grid-area: main;
+    align-self: end;
+    background-color: var(--Black);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
