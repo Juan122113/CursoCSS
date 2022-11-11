@@ -1,0 +1,26 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+.link{
+    margin: 50px;
+    display: inline-block;
+    background-color: slateblue;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 2em;
+    transition: .3s;
+}
+
+.link:hover{
+    background-color: tomato;
+    transform: translateY(10px);
+}
