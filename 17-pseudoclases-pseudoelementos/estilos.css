@@ -20,7 +20,106 @@ body{
     transition: .3s;
 }
 
-.link:hover{
+/* .link:hover{
+    background-color: tomato;
+    transform: translateY(10px);
+} */
+
+.link:active{
     background-color: tomato;
     transform: translateY(10px);
 }
+
+/* .element1{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    transition: .3s;
+}
+
+.element1:target{
+    transform: translateX(100%);
+} */
+
+/* .chek{
+    margin: 50px 20px;
+}
+
+.chek:checked + .label{
+    background-color: green;
+}
+
+.label{
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 15px;
+}
+
+.input{
+    width: 250px;
+    height: 70px;
+    margin: 50px;
+}
+
+.input:focus{
+    color: #fff;
+    background-color: #000;
+} */
+
+
+.element1{
+    background-color: tomato;
+    width: max-content;
+    font-size: 2rem;
+    color: #fff;
+    margin: 50px;
+}
+
+/* .element1::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: #000;
+}
+
+.element1::after{
+    content: "Va después";
+    display: block;
+    width: 100px;
+    height: 50px;
+    background: green;
+} */
+
+.validacion{
+    padding: .5em 2em;
+    margin: 50px;
+    font-size: 1rem;
+}
+
+.validacion + .message::after{
+    content: "Felicidades, has ingresado un texto";
+    display: block;
+    background-color: green;
+    padding: 1em;
+    color: #fff;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.validacion:placeholder-shown + .message::after{
+    content: "Aún no has escrito nada en el input";
+    display: block;
+    background-color: crimson;
+    padding: 1em;
+    color: #fff;
+    margin: 0 auto;
+    width: max-content;
+}
+
+/* .validacion:placeholder-shown{
+    background-color: #000;
+    color: #fff;
+
+} */
