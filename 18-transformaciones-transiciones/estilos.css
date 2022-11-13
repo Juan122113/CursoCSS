@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+.element{
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+
+    transition: .3s;
+
+    /* transform: translate(100px); */
+    /* transform: translate(100px) translateY(100px); */
+    /* transform: translate(100px, 100px); */
+
+    /* transform: rotate(); */
+
+    /* transform: scale(); */
+
+    
+
+    
+}
+
+.element:hover{
+    /* transform: rotate(1turn); */
+    /* transform: scaleX(2) scaleY(2); */
+    /* transform-origin: left top; */
+    transform: skewX(0deg) skewY(30deg) rotate(80deg);
+}
