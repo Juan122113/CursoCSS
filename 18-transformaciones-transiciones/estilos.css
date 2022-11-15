@@ -9,6 +9,7 @@ body{
 
 .container{
     border: 1px solid;
+    display: flex;
 }
 
 .element{
@@ -17,7 +18,12 @@ body{
     height: 200px;
     background-color: tomato;
 
-    transition: .3s;
+    /* transition: .3s; */
+
+    transition-property: background-color, transform, opacity;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1000ms;
 
     /* transform: translate(100px); */
     /* transform: translate(100px) translateY(100px); */
@@ -39,5 +45,7 @@ body{
 
 .container:hover .element{
 /* transform: translate(100%, 100%) scale(1.3) rotate(80deg); */
-transform: rotate(80deg) translate(100%, 100%) scale(1.3) ;
+transform: translate(100%, 100%) scale(1.3) rotate(80deg) ;
+background-color: black;
+opacity: .2;
 }
