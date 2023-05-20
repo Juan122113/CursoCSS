@@ -301,6 +301,7 @@ body{
 
 .attribution{
     font-size: x-small;
+    background-color: #90d4c5;
 }
 
 @media (min-width: 768px){
