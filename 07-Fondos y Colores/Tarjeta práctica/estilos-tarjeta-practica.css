@@ -25,7 +25,7 @@ body{
 }
 
 .card__person{
-    background-image: url('Foto\ Ammiel\ CV.jpg');
+    background-image: url(people.jpg);
     background-size: cover;
     background-position: center;
     width: 110px;
